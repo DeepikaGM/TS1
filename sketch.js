@@ -17,9 +17,11 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   Engine.run(engine);
-  ground = new Ground();
-  stand1 = new Stand(390,300,250,10);
-  stand2 = new Stand(700,200,200,10);
+  ground = new Ground(450,390,900,20);
+  stand1 = new Ground(390,300,250,10);
+  stand2 = new Ground(700,200,200,10);
+  //stand1 = new Stand(390,300,250,10);
+  //stand2 = new Stand(700,200,200,10);
  
   //level one
   block1 = new Block(300,275,30,40);
