@@ -1,4 +1,4 @@
-class Block{
+class Box{
     constructor(x, y, width, height) {
         var options = {
            
